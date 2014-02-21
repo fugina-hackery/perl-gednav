@@ -3,7 +3,7 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     'NAME'	=> 'GedNav',
-    'VERSION_FROM' => 'GedNav.pm', # finds $VERSION
+    'VERSION_FROM' => 'lib/GedNav.pm', # finds $VERSION
     PREREQ_PM =>
 	{ # I know some of these come with perl, but we can't be too careful
 	CGI		=> 0,
