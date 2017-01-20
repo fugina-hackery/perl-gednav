@@ -9,6 +9,7 @@ WriteMakefile(
 	CGI		=> 0,
 	Cwd		=> 0,
 	Data::Dumper	=> 0,
+	Date::Manip	=> 0,
 	File::Basename	=> 0,
 	FileHandle	=> 0,
 	GDBM_File	=> 0,
